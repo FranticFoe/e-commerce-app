@@ -14,6 +14,7 @@ const cartSlice = createSlice({
                 console.log(newProduct)
                 state.push(newProduct);
             }
+            console.log(itemIndex)
         },
     },
 });
